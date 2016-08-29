@@ -42,8 +42,7 @@ dot(input) - Dot product between two vectors;
 input => vec2
 return (this.x * input.x + this.y * input.y)
 
-
-vec2.prototype.len2 - Length of Vector^2
+len2() - Length of Vector^2
 return this.dot(this);
 
 len() - Length of Vector
